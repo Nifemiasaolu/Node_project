@@ -7,3 +7,4 @@ console.log(first, second)
 
 // writeFileSync is used to create new file.
 writeFileSync('./content/result-sync.txt', `This is the result: ${first} \n ${second}`);
+// /////
