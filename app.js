@@ -1,10 +1,14 @@
-const {readFileSync, writeFileSync, write, writeFile} = require('fs')
+// npm - global command, comes with node
+// npm --version
 
-const first = readFileSync('./content/first.txt', 'utf8')
-const second = readFileSync('./content/second.txt', 'utf8')
+// local dependency - use it only in this particular project
+//  npm i <packageName>
 
-console.log(first, second)
+// global dependency - use it in any project
+// npm install -g <packageName>
+// sudo npm install -g <packageName> (mac)
 
-// writeFileSync is used to create new file.
-writeFileSync('./content/result-sync.txt', `This is the result: ${first} \n ${second}`);
-// ////
+// package.json - manifest file (stores important info about project/package)
+// manual approach (create package.json in the root, create properties etc)
+// npm init (step by step, press enter to skip)
+// npm init -y (everything default)
