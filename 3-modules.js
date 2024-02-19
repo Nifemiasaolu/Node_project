@@ -9,3 +9,5 @@ require("./6-number")
 // sayHi("susan");
 // sayHi(names.john);
 // sayHi(names.peter);
+
+// ///
