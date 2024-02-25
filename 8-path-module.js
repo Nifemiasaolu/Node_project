@@ -10,4 +10,4 @@ console.log(base)
 const absolute = path.resolve(__dirname, "content", 'subContent', 'test.txt')
 console.log(absolute)
 
-// ////
+// ///
