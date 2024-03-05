@@ -12,4 +12,4 @@ writeFileSync('./content/result-sync.txt', `This is the result: ${first} \n ${se
 console.log("Done with the task")
 console.log("Starting the next one")
 
-// //////
+// /////
