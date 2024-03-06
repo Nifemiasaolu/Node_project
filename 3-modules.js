@@ -10,4 +10,4 @@ require("./6-number")
 // sayHi(names.john);
 // sayHi(names.peter);
 
-// ///
+// ////
