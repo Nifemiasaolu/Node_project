@@ -15,4 +15,4 @@ writeFileSync(
 console.log("Done with the task");
 console.log("Starting the next one");
 
-// ///
+// //
